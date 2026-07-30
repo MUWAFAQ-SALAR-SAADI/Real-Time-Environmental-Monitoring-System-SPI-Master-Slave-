@@ -32,6 +32,11 @@ each cycle. A simple command protocol (byte 200 = mode-switch command,
 slave does without a shared clock/library dependency, since chip-select
 lines distinguish which device is being addressed at any given moment.
 
+## Simulation
+
+You can view the full circuit wiring and run the real-time communication simulation directly in your browser:
+[Run the Tinkercad Simulation](https://www.tinkercad.com/things/6tU7V3GViLh-real-time-environmental-monitoring-system-spi-masterslave)
+
 ## Hardware
 - 3x Arduino Uno
 - TMP36 analog temperature sensor
